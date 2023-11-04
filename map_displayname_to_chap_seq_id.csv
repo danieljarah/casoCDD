@@ -1,0 +1,30 @@
+,display_name,seq_id,chap_id,seq_order,chap_order
+4,Quiz 1: Uso de modelos matemáticos en la economía,6a22e82cdb9a46f687ba6a19ad7cb366,2581795a491748b4b708467145943fd3,1,2
+5,Quiz 2: Motivación y Función de Producción,ea209380d1944acb89439fb896cd1ea1,f07ab5ff41b1404cbddfeda0320366bc,0,3
+6,Quiz 3: Preferencias y Toma de Decisiones,123b180fca604c75bff85ef631068d98,f07ab5ff41b1404cbddfeda0320366bc,1,3
+7,Quiz 4: Salario y Efectos,9defd274aa9348449a2a5427b1778fe1,f07ab5ff41b1404cbddfeda0320366bc,2,3
+8,Quiz 5: Explicando Diferencias y Conclusión,6c72e97940e845a79eb660a7419c204c,f07ab5ff41b1404cbddfeda0320366bc,3,3
+9,Quiz 6: Introducción y conceptos iniciales,1b32d29aaaa74e1f92d4a011c00ec3b9,30b085e522254d37b8e1b7b8a99f05aa,0,4
+10,Quiz 7: Prediciendo el resultado de un juego,f8001bb6bcfc4c25a22cf9dfd3219b7e,30b085e522254d37b8e1b7b8a99f05aa,1,4
+11,Quiz 8: Evaluación de Resultados,79ccccce690642a5aae47177b89d273d,27d6778a5f974499b3147b3ba4ab7088,0,5
+12,Quiz 9: Determinación de Asignaciones,d8a0a3a8e85245d4813401ef8c29e2f8,27d6778a5f974499b3147b3ba4ab7088,1,5
+13,Quiz 10: Desigualdad,668e2dc719b94d7389e0d05802847766,27d6778a5f974499b3147b3ba4ab7088,2,5
+14,Quiz 11: Conceptos centrales,fbc72059ba084776921b581153356c1c,1f64b28477844c3286c891e0abc88116,1,6
+15,Quiz 12: Profundizando lo aprendido,c714be0dc2b64480a331fc8f5d1a40ea,1f64b28477844c3286c891e0abc88116,2,6
+16,Quiz 13: Conceptos centrales,04c1fb8fc50543d2901e1d488c62d463,514680f52f2541c49fcf505d24dada3a,1,7
+17,Quiz 14: Profundizando lo aprendido,4f04ac8cbfc44e02955a38dab6a5f5f1,514680f52f2541c49fcf505d24dada3a,2,7
+18,Quiz 15: Conceptos centrales,8a652229fa254a808c4da048ab2b9167,f671425ab23142cea499091e5b478809,1,8
+19,Quiz 16: Profundizando lo aprendido,70f753cf7dc24442a3d39bcb15a2c560,f671425ab23142cea499091e5b478809,2,8
+20,Quiz 17: Introducción,d82a8f4999804928b2790986c5275fd9,963676c0478a4a44b11c451019788982,0,9
+21,"Quiz 18: Oferta, demanda y equilibrio de mercado",5e9502f553314aa5b572a56d54751353,963676c0478a4a44b11c451019788982,1,9
+22,Quiz 19: Cambios en la oferta y la demanda,d017e90423c0410794801198ab3c984c,963676c0478a4a44b11c451019788982,2,9
+23,Quiz 20: Excedentes y la mano invisible,77b705c6e8ff40e18a5ef47910065577,963676c0478a4a44b11c451019788982,3,9
+24,Quiz 21: Impuestos y Subsidios,624ac20ceac7494bad4aa9cc18a9760b,963676c0478a4a44b11c451019788982,4,9
+25,Quiz 22: Eficiencia y externalidades,e89658bdaf354c4eae2aa94145431e20,1e97a46f4be9435ba53bf82985e36fe8,1,10
+26,Quiz 23: Corrección de fallas,d2eec4cb0321478e821ebb0a0bc4bfad,1e97a46f4be9435ba53bf82985e36fe8,2,10
+27,Quiz 24: Otras fuentes de ineficiencia,706e76f3632e4366bf90d6b1950b073e,1e97a46f4be9435ba53bf82985e36fe8,3,10
+28,Quiz 25: Regla de la mayoría,d093ff8b15a54537aa187ec9174462f7,52ff195e89524d81acc2612e5e6caaa7,0,11
+29,Quiz 26: La paradoja de Condorcet,f5f64bf064814f52a53e70c8f1e06224,52ff195e89524d81acc2612e5e6caaa7,1,11
+30,Quiz 27: Teorema del votante mediano,88ca477e76354c16a8f7210b13bf638f,52ff195e89524d81acc2612e5e6caaa7,2,11
+31,Quiz 28: Decisiones intertemporales,d6738864149d4ee996a044406b5b7847,3606f15b7f7a4874814b41905c4d6ce5,1,12
+32,Quiz 29: Tópicos Adicionales,0cc92908ddb64119a1ad903b25e6fa70,3606f15b7f7a4874814b41905c4d6ce5,2,12
