@@ -18,4 +18,6 @@ Eliminar Quiz 17 por estar eliminado
 Eliminar Grade Scaled por contener la misma información que Grade
 Modificar el cambio de Anto de Not Atempted a 0, ahora es a -1. El objetivo es poder pasar todos los datos a float sin perder información. Cuando se cambia a 0, se establece que el que no abrió es igual al que abrió y no obtuvo puntos.
 Eliminar outliers con nota 0. (También puedo transformarlos al valor más cercano distinto de 0, pero siento que confundiría más que ayudaría al modelo
+
+////////////////////////////////////////////////////////////////////////////
  
