@@ -1,0 +1,23 @@
+Notas Cruce.ipynb
+
+En el cálculo de las sesiones:
+20. Qué significa cada event type te permite decir cuando inicia y cuando se termina cada sesión.
+24. Por qué se divide por los segundos de una hora
+
+Tiene pinta de que un event type es una interacción especial con la página.
+
+41. Revisar que los estadísticos se agregaron sin eliminar nada. ¿Por que habría que hacer un drop_duplicates?
+
+47. ¿Esto esta calculando la cantidad de días entre la primera vez y la última vez que se usó eol?
+
+
+Creación de ing-datos-notas
+
+Decisiones:
+Eliminar Quiz 17 por estar eliminado
+Eliminar Grade Scaled por contener la misma información que Grade
+Modificar el cambio de Anto de Not Atempted a 0, ahora es a -1. El objetivo es poder pasar todos los datos a float sin perder información. Cuando se cambia a 0, se establece que el que no abrió es igual al que abrió y no obtuvo puntos.
+Eliminar outliers con nota 0. (También puedo transformarlos al valor más cercano distinto de 0, pero siento que confundiría más que ayudaría al modelo
+
+////////////////////////////////////////////////////////////////////////////
+ 
