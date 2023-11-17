@@ -1,0 +1,56 @@
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, classification_report
+import matplotlib.pyplot as plt
+
+# Cargar data de entrenamiento y prueba desde archivos CSV
+train_data = pd.read_csv('ruta/archivo_entrenamiento.csv')
+test_data = pd.read_csv('ruta/archivo_prueba.csv')
+
+# Supongamos que 'label' es la columna que contiene las etiquetas y las demás son características
+X_train = train_data.drop('label', axis=1)
+y_train = train_data['label']
+
+X_test = test_data.drop('label', axis=1)
+y_test = test_data['label']
+
+# Definir diferentes valores de k y medidas de disimilitud
+k_values = [3, 5, 7]
+distance_metrics = ['euclidean', 'manhattan']
+
+# Crear un DataFrame para almacenar los resultados
+results_df = pd.DataFrame(columns=['K', 'Distancia', 'Accuracy', 'Data'])
+
+# Iterar sobre los valores de k y las medidas de disimilitud
+for k in k_values:
+    for distance_metric in distance_metrics:
+        # Crear un clasificador KNN con los parámetros actuales
+        knn_classifier = KNeighborsClassifier(n_neighbors=k, metric=distance_metric)
+        
+        # Entrenar el modelo
+        knn_classifier.fit(X_train, y_train)
+        
+        # Realizar predicciones en el conjunto de prueba
+        y_pred = knn_classifier.predict(X_test)
+        
+        # Calcular la precisión del modelo en el conjunto de prueba
+        accuracy = accuracy_score(y_test, y_pred)
+        
+        # Almacenar los resultados en el DataFrame
+        results_df = results_df.append({'K': k, 'Distancia': distance_metric, 'Accuracy': accuracy, 'Data': 'Test'}, ignore_index=True)
+
+# Filtrar los resultados por la data de entrenamiento
+results_train_df = results_df[results_df['Data'] == 'Train']
+
+# Crear un gráfico de línea para visualizar el método del codo para la data de entrenamiento
+for distance_metric in distance_metrics:
+    subset_df = results_train_df[results_train_df['Distancia'] == distance_metric]
+    plt.plot(subset_df['K'], subset_df['Accuracy'], marker='o', label=f'Distancia: {distance_metric}')
+
+# Añadir etiquetas y leyenda al gráfico
+plt.title('Método del Codo para seleccionar K (Data de Entrenamiento)')
+plt.xlabel('Valor de K')
+plt.ylabel('Precisión')
+plt.legend()
+plt.show()
