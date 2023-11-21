@@ -5,9 +5,10 @@ from sklearn.metrics import accuracy_score, classification_report
 import matplotlib.pyplot as plt
 
 # Cargar data de entrenamiento y prueba desde archivos CSV
-train_data = pd.read_csv('ruta/archivo_entrenamiento.csv')
-test_data = pd.read_csv('ruta/archivo_prueba.csv')
+train_data = pd.read_csv('ruta/logs_entrenamiento_filtrado.csv')
 
+#Train with this data and return the metrics then it has to be able to recieve the same data without labels 
+#and autput a subdata of just the usernames in this data with their respective labes
 # Supongamos que 'label' es la columna que contiene las etiquetas y las demás son características
 X_train = train_data.drop('label', axis=1)
 y_train = train_data['label']
